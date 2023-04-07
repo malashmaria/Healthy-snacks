@@ -1,0 +1,137 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title> Продукты </title>
+    <link rel="icon" href="images/Иконки яблоко.svg" type="image/x-icon">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="jquery-3.6.1.min.js"> </script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+</head>
+
+<body class="фон_каталог">
+    <div class="хедер">
+        <img class="бургер" src="images/бургер.svg">
+        <a href="index.html"><img src="images/логотип.svg"></a>
+        <div class="меню">
+            <a href="products.html">Продукты</a>
+            <a href="history.html">О нас</a>
+            <a href="how_to_buy.html">Как купить?</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+        <a><img class="прозрачность" src="images/корзина.svg"></a>
+    </div>
+
+    <div class="поля_каталог отступ_под_блоком отступ_сверху_страницы">
+        <div class="грид2_каталог">
+            <div class="категории">
+                <a>Популярные продукты</a>
+                <a>Подарочные наборы</a>
+                <a>Пастила</a>
+                <a>Фруктовые чипсы</a>
+                <a>Конфеты</a>
+                <a>Печенье</a>
+                <a>Мюсли</a>
+                <a>Гранола</a>
+                <a>Цукаты</a>
+            </div>
+            <div class="каталог_центр">
+                <h1>Продукты</h1>
+                <div class="каталог">
+                    <img class="продукт" src="images/продукт1.png">
+                    <img class="продукт" src="images/продукт2.png">
+                    <img class="продукт" src="images/продукт3.png">
+                    <img class="продукт" src="images/продукт4.png">
+                    <img class="продукт" src="images/продукт5.png">
+                    <img class="продукт" src="images/продукт6.png">
+                    <img class="продукт" src="images/продукт8.png">
+                    <img class="продукт" src="images/продукт9.png">
+                    <img class="продукт" src="images/продукт10.png">
+                    <img class="продукт" src="images/продукт11.png">
+                    <img class="продукт" src="images/продукт12.png">
+                    <img class="продукт" src="images/продукт13.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="оверлэй">
+        <div class="отступ_под_блоком поля_карточка">
+            <div class="карточка грид2 грид2_карточка">
+                <img class="плюс крестик" src="images/плюс.svg">
+                <img class="картинка_карточка" src="images/pastila_klubnika.jpg">
+                <div class="текст_карточка грид3">
+                    <center>
+                        <h2 class="h2_карточка">Пастила</h2>
+                        <h3>яблоко - клубника</h3>
+                    </center>
+                    <div class="грид_карточка">
+                        <p>Состав: яблоки, клубника.</p>
+                        <p>Вкусное и полезное лакомство. Ингредиенты не подвергаются термической обработке и сохраняют
+                            все
+                            свои
+                            полезные свойства, витамины и минералы. </p>
+                    </div>
+                    <h3 class="h3_карточка">12р</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".бургер").on('click', function () {
+            $(".меню").toggle();
+        });
+        $(".плюс").on('click', function () {
+            $(".оверлэй").hide();
+        });
+        $(".продукт").on('click', function () {
+            $(".оверлэй").show();
+        });
+    </script>
+    <div class="футер поля">
+        <a href="index.html"><img class="лого_футер" src="images/логотип.svg"></a>
+        <div class="грид5">
+            <a href="products.html">Продукты</a>
+            <a href="history.html">О нас</a>
+            <a href="how_to_buy.html">Как купить?</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+
+        <div class="грид5 контакты">
+            <div class="иконка_текст">
+                <img class="иконка_футер" src="images/tel.svg">
+                <p>+375 44 792 77 23</p>
+            </div>
+            <div class="иконка_текст">
+                <img class="иконка_футер" src="images/tel.svg">
+                <p>+375 29 179 73 27</p>
+            </div>
+            <div class="иконка_текст">
+                <img class="иконка_футер" src="images/mail2.svg">
+                <p>heathysweets@mail.ru</p>
+            </div>
+            <div class="иконка_текст">
+                <img class="иконка_футер" src="images/map.svg">
+                <p>Минский район,
+                    аг. Новый Двор, 53</p>
+            </div>
+            <div class="иконка_текст">
+                <img src="images/inst.svg">
+                <img src="images/facebook.svg">
+                <img src="images/vk.svg">
+                <img src="images/odnoklassniki.svg">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
